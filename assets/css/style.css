@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: #231e23;
+    color: #ffffff;
+}
+
+
+.somos__box{
+    margin-top: 25px;
+    
+}
+
+.somos__box-card{
+    display: flex;
+    
+}
+
+.cards-somos{
+    margin: 5px 25px;
+}
+.icons__cardsomos{
+    height: 25px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+}
