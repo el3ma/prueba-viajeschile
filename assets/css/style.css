@@ -38,8 +38,15 @@ footer{
 
 .text_footer{
     font-size: 30px;
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
 }
+
 
 .icons_footer{
     font-size: 35px;
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
 }
