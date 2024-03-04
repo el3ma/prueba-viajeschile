@@ -8,11 +8,6 @@ main{
 }
 
 
-.somos__box{
-    margin-top: 25px;
-    
-}
-
 .somos__box-card{
     display: flex;
     
@@ -20,10 +15,31 @@ main{
 
 .cards-somos{
     margin: 5px 25px;
+
 }
+
+.card{
+   background-color: rgb(1, 97, 97);
+   color: #ffffff;
+}
+
 .icons__cardsomos{
     height: 25px;
     width: 100%;
-    background-color: aqua;
+    background-color:  rgb(1, 97, 97);
     text-align: center;
+    padding-top: 5px;
+}
+
+footer{
+    background-color: rgb(1, 97, 97);
+    height: 65px;
+}
+
+.text_footer{
+    font-size: 30px;
+}
+
+.icons_footer{
+    font-size: 35px;
 }

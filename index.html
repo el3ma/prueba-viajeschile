@@ -73,7 +73,7 @@
 
   <main>
     <section class="somos__box container">
-      <div class="text-center">
+      <div class="text-center p-5">
         <h2>¿QUIÉNES SOMOS?</h2>
       </div>
       <hr>
@@ -89,14 +89,14 @@
             egestas erat, et condimentum eros velit vel ex.</p>
         </div>
         <div class="cards-somos">
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et suscipit libero, eget gravida odio.
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et suscipit libero, eget gravida odio.
             Mauris ac diam sodales, maximus ex dignissim, molestie justo. Nullam posuere, metus quis lobortis elementum,
             elit urna euismod ligula, at interdum tellus tortor id turpis. Maecenas quam enim, maximus quis ante in,
             tristique mattis lectus. Maecenas convallis, dolor sed aliquam molestie, urna magna tincidunt libero, eu
             laoreet justo arcu eu odio. Sed sed lorem pulvinar, faucibus urna consectetur, mattis elit. Cras viverra dui
             sapien, laoreet tincidunt eros condimentum eget. Nam hendrerit, turpis vel accumsan tincidunt, arcu ligula
             egestas erat, et condimentum eros velit vel ex.</p>
-            <i class="fa-solid fa-mountain icons__cardsomos"></i>
+          <i class="fa-solid fa-mountain icons__cardsomos"></i>
         </div>
         <div class="cards-somos">
           <i class="fa-solid fa-route icons__cardsomos"></i>
@@ -111,31 +111,34 @@
       </div>
     </section>
 
-    <section>
-      <h2>DESTACADOS</h2>
-      <div>
-        <div class="card" style="width: 18rem;">
+    <section class="container">
+      <div class="text-center p-5">
+        <h2>DESTACADOS</h2>
+      </div>
+      <hr>
+      <div class="row d-flex justify-content-around">
+        <div class="card p-0" style="width: 18rem;">
           <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card p-0" style="width: 18rem;">
           <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card p-0" style="width: 18rem;">
           <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card p-0" style="width: 18rem;">
           <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -145,7 +148,10 @@
       </div>
     </section>
 
-    <section>
+    <section class="container my-5">
+      <div class="text-center p-5">
+        <h2>CONTACTO</h2>
+      </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
@@ -163,12 +169,23 @@
       </div>
     </section>
 
-    <footer>
-      <p>VIAJES CHILE</p>
-      <i class="fa-brands fa-square-github"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-square-facebook"></i>
+    <footer class="d-flex align-items-center py-5">
+      <div class="container">
+        <div class="row">
+          <div class="text_footer col">
+            <p>VIAJES CHILE</p>
+          </div>
+          <div class="icons_footer col text-end">
+            <i class="fa-brands fa-square-github mx-2"></i>
+            <i class="fa-brands fa-linkedin mx-2"></i>
+            <i class="fa-brands fa-twitter mx-2"></i>
+            <i class="fa-brands fa-square-facebook mx-2"></i>
+          </div>
+
+        </div>
+      </div>
+
+
     </footer>
 
   </main>
