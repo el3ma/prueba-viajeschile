@@ -47,6 +47,7 @@ footer{
 .icons_footer{
     font-size: 35px;
     @media (max-width: 600px) {
-        font-size: 20px;
+        font-size: 25px;
+        padding-bottom: 5px;
     }
 }
