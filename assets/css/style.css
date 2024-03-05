@@ -1,3 +1,8 @@
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -6,7 +11,6 @@ main{
     background-color: #231e23;
     color: #ffffff;
 }
-
 
 .somos__box-card{
     display: flex;
